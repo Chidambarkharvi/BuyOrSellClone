@@ -1,0 +1,122 @@
+.login-container{
+    background-image: linear-gradient(to bottom right, rgb(98, 187, 228), rgb(170, 144, 218));
+     height:100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     opacity: 0.8;
+     flex-wrap: wrap;
+}
+.login-input-container{
+    padding: 8px 10px;
+ width: 60%;
+ border-radius: 10px;
+ outline: none;
+
+}
+.login-container1{
+    width: 40%;
+    height: 60%;
+    background-color: rgb(161, 202, 226);
+    padding-left: 10%;
+    border-radius: 10px;
+}
+
+.input-container{
+    padding-top: 10%;
+}
+.input-container2{
+    padding-top: 10%;
+    
+}
+
+
+
+.login-btn-container{
+  margin-top: 10%;
+
+}
+.input-login{
+    padding: 2px 20px;
+    border-radius: 5px;
+    background-color: rgb(89, 138, 187);
+    outline: none;
+    width: 60%;
+}
+.login-error{
+    color: red;
+}
+
+.error_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+@media only screen and (max-width:600px){
+    .login-container1{
+        width: 90%;
+        height: 70%;
+        padding: 0px;
+    }
+    .input-container{
+       float: left;
+       margin-left: 15%;
+
+       }
+    .input-container2{
+        float: left;
+       margin-left: 10%;
+       width: 80%;
+
+    }   
+    .login-input-container{
+           padding: 8px 10px;
+        width: 100%;
+        border-radius: 10px;
+        outline: none;
+    
+    }
+    .input-login{
+       margin-top: 10%;
+       margin-left: 15%;
+       width: 70%;
+       outline: none;
+    }
+       
+
+}
+@media only screen and (max-width:400px){
+    .login-container1{
+        width: 90%;
+        height: 70%;
+        padding: 0px;
+    }
+    .input-container{
+       float: left;
+       margin-left: 15%;
+
+       }
+    .input-container2{
+        float: left;
+       margin-left: 10%;
+       width: 80%;
+
+    }   
+    .login-input-container{
+           padding: 8px 10px;
+        width: 100%;
+        border-radius: 10px;
+        outline: none;
+    
+    }
+    .input-login{
+       margin-top: 10%;
+       margin-left: 15%;
+       width: 70%;
+       outline: none;
+    }
+       
+
+}
